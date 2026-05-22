@@ -35,11 +35,17 @@ Use the bundled [Sentinel app](https://github.com/alienator88/Sentinel) to bypas
 
 ### Windows
 
+To speed up extraction times, please use 7zip: https://www.7-zip.org/ 
+
 Run as administrator. If a warning appears, click **More info**, then **Run anyway**.
 
 ### Linux
 
 Double-click the `WingSeek` executable, or `cd` to the extracted directory and run `./WingSeek` from the terminal.
+
+### Initial Launch
+
+Please load the config file contained within the installer, as shown in the demo video. If the UI is too small or large, adjust using the 2nd dropdown on the preferences (last) tab.
 
 ## Best Practices
 
