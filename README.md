@@ -39,9 +39,22 @@ Run as administrator. If a warning appears, click **More info**, then **Run anyw
 
 ### Linux
 
-Double-click the `WingSeek` executable, or cd to the extracted directory and run `./WingSeek` from the terminal.
+Double-click the `WingSeek` executable, or `cd` to the extracted directory and run `./WingSeek` from the terminal.
 
 ## Best Practices
+
+### Calibration of Settings
+
+Default motion detection settings have been calibrated for use with near-infrared video. Use on thermal imagery may require additional calibration.
+
+The AI classifier relies on visual cues to classify events. Specifically, bats are identified from their silhouette in flight, including the body and wings. Please consider the quality of your data before using this tool. Best practice includes using a minimum shutter speed of `1/60`, ideally above `1/100`, and ensuring sufficient lighting and contrast between the bat and the background.
+
+The AI classifier should be used conservatively. For recall-focused use, we recommend `0.4` as a starting point for the bat confidence threshold. However, as best practice, this threshold should be calibrated using your own data:
+
+1. Compile a directory containing clips of known emergence or bat-present events.
+2. Run the analysis on this directory and calibrate the motion and AI confidence thresholds accordingly.
+
+### General Usage
 
 WingSeek is non-destructive and does not modify the original input videos. However, we strongly recommend backing up all original survey videos prior to analysis.
 
