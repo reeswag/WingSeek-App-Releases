@@ -27,6 +27,42 @@ The macOS app is fully optimised for Apple M-series CPU and GPU hardware. For op
 
 Windows and Linux versions are considered secondary releases. A GPU-enabled Linux release may be compiled directly from source code in future.
 
+## Beta v7
+
+### Simpler Motion Tuning
+
+The Motion Tuner now includes a **Basic** mode with ready-to-use profiles for:
+
+- High sensitivity
+- Medium sensitivity
+- Low sensitivity
+- Thermal footage
+
+Advanced settings remain available for more detailed tuning, and custom profiles can be saved for repeated use.
+
+### Fine-Tune the Bat Classifier
+
+The new **Training** tab allows you to fine-tune the WingSeek classifier using your own labelled crop data.
+
+Use the **Export** button in the Review UI to export labelled object crops. Select **Export crops**, choose the labels to include, and export them into a directory structured as:
+
+```text
+crops/
+  bat/
+  other/
+```
+
+Use bat for verified bat detections and other for false positives or non-bat objects. Including representative false positives helps adapt the classifier to your camera setup and survey conditions.
+
+Fine-tuning produces one WingSeek-compatible four-class model. Validate the resulting model on independent clips before operational use. Do not use the training data to assess model performance.
+
+### Improved Export and Review
+- Export selected clips with or without annotations.
+- Export WAV audio alongside clips.
+- Export labelled object crops for use in fine-tuning.
+- Search for visually similar events from the Review UI.
+- Improved overlays, trails, custom labels, keyboard shortcuts, and missing-video recovery.
+
 ## Installation Instructions
 
 ### macOS
@@ -45,7 +81,8 @@ Double-click the `WingSeek` executable, or `cd` to the extracted directory and r
 
 ### Initial Launch
 
-Please load the config file contained within the installer, as shown in the demo video. If the UI is too small or large, adjust using the 2nd dropdown on the preferences (last) tab.
+On first launch, WingSeek automatically loads the bundled default configuration from the configs folder.
+If the interface is too small or large, adjust UI Scale in the Preferences tab.
 
 ## Best Practices
 
