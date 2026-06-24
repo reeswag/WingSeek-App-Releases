@@ -40,6 +40,15 @@ The Motion Tuner now includes a **Basic** mode with ready-to-use profiles for:
 
 Advanced settings remain available for more detailed tuning, and custom profiles can be saved for repeated use.
 
+### Find Similar Events
+
+The Review UI uses AI-generated embeddings to identify events with similar motion patterns within the selected video. This can help quickly review recurring likely false positives, or locate multiple emergence events associated with the same feature.
+
+1. Open the Review UI and select an event row.
+2. Set the similarity threshold if required. Higher values return fewer, more closely matched events. The default is `0.80`.
+3. Select **Find similar**.
+4. Review the returned events and apply labels manually as appropriate.
+
 ### Fine-Tune the Bat Classifier
 
 The new **Training** tab allows you to fine-tune the WingSeek classifier using your own labelled crop data.
