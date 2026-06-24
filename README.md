@@ -115,3 +115,9 @@ It is important that the output directory:
 Please select **Archive Outputs** from the main UI if you want to back up the output folder. This archives outputs into a `.tar` file for faster copying.
 
 When analysis is complete and the Review UI has been used to generate clips, please ensure that the original videos are backed up alongside any clips containing bats.
+
+### Diagnostics and Feedback
+
+The **Preferences** tab includes **Run Packaged App Tests**, which checks the core functions of the app and benchmarks performance.
+
+When complete, WingSeek creates a shareable diagnostics log containing test results. Please use **Export Log** to save and share this log when reporting an issue or providing feedback on performance.
