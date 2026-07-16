@@ -4,7 +4,7 @@ Official releases for WingSeek, an app for bat survey video review and annotatio
 
 ➡️ **Download latest release:** [GitHub Releases](https://github.com/reeswag/WingSeek-App-Releases/releases)
 
-[![DOI](https://zenodo.org/badge/1241688908.svg)](https://doi.org/10.5281/zenodo.20826051)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20826051-blue.svg)](https://doi.org/10.5281/zenodo.20826051)
 
 WingSeek is a desktop app for bat survey video review, combining:
 - Motion extraction
