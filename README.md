@@ -16,6 +16,8 @@ WingSeek is a desktop app for bat survey video review, combining:
 
 Watch the WingSeek demo below with installation instructions and a full demonstration of the workflow:
 
+**▶️ Click the image below to watch on YouTube.**
+
 [![Watch the WingSeek demo with installation instructions](https://img.youtube.com/vi/BAMXDqNjo84/hqdefault.jpg)](https://youtu.be/BAMXDqNjo84)
 
 WingSeek is free to use. To support the project, please consider submitting clips to our database. These may be used to further improve the detection model. The upload link is available in the app.
@@ -26,11 +28,9 @@ If WingSeek has been useful to you and you would like to support ongoing updates
 
 ## Development Status
 
-WingSeek has been developed and optimised for macOS and Linux.
+WingSeek is developed and optimised primarily for **macOS**, with a particular focus on **Apple M-series hardware**. The macOS release remains the recommended option for the best-supported experience and simplest setup.
 
-The macOS app is fully optimised for Apple M-series CPU and GPU hardware. For optimal performance and the simplest user experience, please use the macOS release.
-
-Windows and Linux versions are considered secondary releases. A GPU-enabled Linux release may be compiled directly from source code in future.
+**Windows and Linux are supported as secondary platforms.** Both support **NVIDIA GPU acceleration** when using a GPU-enabled build with compatible hardware and drivers. CPU processing is also available.
 
 ## Beta v7
 
