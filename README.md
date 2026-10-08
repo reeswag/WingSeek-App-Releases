@@ -14,11 +14,25 @@ WingSeek is a desktop app for bat survey video review, combining:
 - Event review and annotation
 - Clip generation/export
 
-Watch the WingSeek demo below with installation instructions and a full demonstration of the workflow:
+## Getting Started
 
-**▶️ Click the image below to watch on YouTube.**
+### 📖 WingSeek Wiki – User Guide
 
-[![Watch the WingSeek demo with installation instructions](https://img.youtube.com/vi/BAMXDqNjo84/hqdefault.jpg)](https://youtu.be/BAMXDqNjo84)
+The **[WingSeek Wiki](../../wiki)** is the primary source of documentation, providing step-by-step instructions covering installation, configuration, analysis, event review and exporting results.
+
+**We recommend following the Wiki when setting up and using WingSeek**, as it contains the most up-to-date guidance.
+
+### ▶️ Video Demonstration
+The video below demonstrates installation and the main WingSeek workflow.
+
+The video is intended as a supplementary resource. Please refer to the Wiki for the latest instructions and guidance.
+
+**Click the image below to watch the demonstration on YouTube.**
+
+[![Watch the WingSeek demonstration](https://img.youtube.com/vi/BAMXDqNjo84/hqdefault.jpg)](https://youtu.be/BAMXDqNjo84)
+
+
+## Support WingSeek
 
 WingSeek is free to use. To support the project, please consider submitting clips to our database. These may be used to further improve the detection model. The upload link is available in the app.
 
@@ -32,7 +46,7 @@ WingSeek is developed and optimised primarily for **macOS**, with a particular f
 
 **Windows and Linux are supported as secondary platforms.** Both support **NVIDIA GPU acceleration** when using a GPU-enabled build with compatible hardware and drivers. CPU processing is also available.
 
-## Beta v7
+## V10 Features
 
 ### Simpler Motion Tuning
 
@@ -77,27 +91,6 @@ Fine-tuning produces one WingSeek-compatible four-class model. Validate the resu
 - Search for visually similar events from the Review UI.
 - Improved overlays, trails, custom labels, keyboard shortcuts, and missing-video recovery.
 
-## Installation Instructions
-
-### macOS
-
-Use the bundled [Sentinel app](https://github.com/alienator88/Sentinel) to bypass Gatekeeper restrictions on macOS.
-
-### Windows
-
-To speed up extraction times, please use 7zip: https://www.7-zip.org/ 
-
-Run as administrator. If a warning appears, click **More info**, then **Run anyway**.
-
-### Linux
-
-Double-click the `WingSeek` executable, or `cd` to the extracted directory and run `./WingSeek` from the terminal.
-
-### Initial Launch
-
-On first launch, WingSeek automatically loads the bundled default configuration from the configs folder.
-If the interface is too small or large, adjust UI Scale in the Preferences tab.
-
 ## Best Practices
 
 ### Calibration of Settings
@@ -130,7 +123,7 @@ Please select **Archive Outputs** from the main UI if you want to back up the ou
 
 When analysis is complete and the Review UI has been used to generate clips, please ensure that the original videos are backed up alongside any clips containing bats.
 
-### Diagnostics and Feedback
+### Feedback
 
 The **Preferences** tab includes **Run Packaged App Tests**, which checks the core functions of the app and benchmarks performance.
 
